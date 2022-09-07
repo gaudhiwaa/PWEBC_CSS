@@ -1,0 +1,103 @@
+h1{
+    color: white;
+    font-family: sans-serif;
+}
+
+.header{
+    background-color: rgb(94, 109, 170);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 200px;
+    padding: 0px 40px 0px 40px;
+}
+
+.menu{
+    margin-top: 20px;
+    background-color: rgb(94, 109, 170);
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li a{
+    margin: 0 30px 0 0;
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.content{
+    /* margin-top: 20px; */
+    /* background-color: red; */
+    display: flex;
+}
+
+.article {
+    width: 70%;
+    padding: 0px 40px 0px 20px;
+}
+
+.card{
+    border: 2px solid rgb(94, 109, 170);
+    padding: 0px 40px 0px 40px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.card h2{
+    font-family: sans-serif;
+}
+
+.card p{
+    font-family: sans-serif;
+}
+
+
+.card button{
+    margin-bottom: 20px;
+}
+
+.content h2{
+    color: black;
+    font-family: sans-serif;
+}
+
+.line {
+    border: 2px solid rgb(94, 109, 170);
+    width: 100%;
+}
+
+.category ul{
+    list-style: none;
+    line-height: 30px;
+    /* margin-left: -20px; */
+}
+
+.category ul li{
+    margin-left: -40px;
+    font-size: 18px;
+}
+
+.category ul li a{
+    text-decoration: none;
+    color: black
+}
+
+.footer {
+    margin-top: 80px;
+    background-color: rgb(94, 109, 170);
+    height: 50px;
+    padding: 20px;
+}
+
+.footer p{
+    color: white;
+}
+
+
